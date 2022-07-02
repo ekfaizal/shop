@@ -1,0 +1,11 @@
+.parent{
+display: flex;
+}
+
+.loading{
+    width: 100%;
+    height: 611px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

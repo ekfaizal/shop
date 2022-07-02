@@ -1,0 +1,7 @@
+<div *ngFor="let promd of cardData11">
+    <h3>{{promd.title}}</h3>
+                 <p>{{promd.price}}</p>
+                 {{promd.id}}
+                 <button (click)="deletes(promd.id)">Delete</button>
+</div>
+<h3>{{totalPrice}}</h3>

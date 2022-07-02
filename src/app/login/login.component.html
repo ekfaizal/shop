@@ -1,0 +1,22 @@
+<div class="login-wrapper">
+  <form action="" class="form">
+    <h2>Login</h2>
+    <div class="input-group">
+      <input
+        type="text"
+        [(ngModel)]="name"
+        name="loginUser"
+        id="loginUser"
+        required
+        placeholder="user Name"
+      />
+      <span class="error">{{ nameError }}</span>
+    </div>
+
+    <div class="input-group">
+      <input type="password"  [(ngModel)]="key" name="loginPassword" id="loginPassword" placeholder="PassWord" />
+      <span class="error">{{ nameError }}</span>
+    </div>
+    <input (click)="dataSubmit()" type="submit" value="Login" class="submit-btn" />
+  </form>
+</div>

@@ -1,0 +1,15 @@
+<!-- <div class="loading" *ngIf="!product.title">
+    <nz-spin nzTip="loading"></nz-spin>
+</div> -->
+
+
+<div class="parent">
+    <h1>{{productDetail.title}}</h1>
+    <div>
+        <img style="width:50px;" src="{{productDetail.image}}" alt="">
+        <button
+        (click)="addProduct()"
+       
+        >add to cart</button>
+    </div>
+    </div>
